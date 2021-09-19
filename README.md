@@ -12,4 +12,4 @@ has config variables at the top of top of the code for you to configure specific
 these files, and the delay you would like between actions.
 
 change-log:
-
+Sep 18, 2021 - Created v1.0!
