@@ -23,8 +23,9 @@ delay = 5
 website = "https://www.twitch.tv/"
 counter = 0
 
-# Open browser and website
+# Open browser, maximize the window, and open website
 browser = webdriver.Chrome()
+browser.maximize_window()
 browser.get(website)
 
 # Delay for the page to fully load
