@@ -16,7 +16,7 @@ username = ""
 password = ""
 # Other Config Variables
 streamerUsername = ""   #This is the username of the streamer you want to block these bots for(You must be a moderator for this streamer)
-directory = "C:\\Users\\mshic\\Desktop\\TwitchBlocking\\" # The folder where the text file is located
+directory = "" # The folder where the text file is located
 delay = 5
 
 # Define remaining variables
@@ -63,7 +63,7 @@ f = open(directory + "banlist.txt", "r")
 
 # Creates a loop where for every username in the file 'f', 
 # the command "/ban [username]" is ran with a short delay between commands
-delay = 0.5         # Recommended delay = 0.5
+delay = 0.1         # Recommended delay = 0.1
 for username in f:
     chatBox.send_keys("/ban " + username)
     print("Banning: " + username)
